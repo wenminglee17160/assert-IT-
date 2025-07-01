@@ -1,0 +1,27 @@
+this is origin proposal text.
+
+`
+Hello ,
+
+I have carefully read your job description and am confident that I can provide you with seamless web and mobile experiences. 
+I specialize in HTML, CSS, JavaScript, TypeScript, React, Next.js, React Native, and Flutter.
+I pay attention to details and focus on results. 
+I am an individual developer, so you can communicate directly with me and work seamlessly with me in your time zone.
+Let's connect and discuss how I can help you with your project.
+
+Best,
+Ronald
+`
+
+
+I will provide you with the job posting of the client. 
+Then, change the original proposal according to the current job posting, remove or add some skills from the existing skills list, add some technical content according to the job posting, but do not change the structure of the original proposal.
+A Little mention about the technical things to give feeling that I read the job postings.
+Also, add interesting additional questions about the project according to the job posting.
+Write a bid sentence that can convince the client that I can do the project well and that they can hire me.
+In some cases, the client is looking for a suitable developer by distinguishing between AI-written sentences and human-written sentences.
+It must not look like AI-written sentences.
+And keep it in the style of a native English speaker.
+It should not be too long and should be a human-style bid sentence.
+The bid sentence must not exceed 1000 characters.
+All bid sentences must be written in this style.

@@ -1,0 +1,52 @@
+
+git clone --bare remote_url.
+
+
+=================================================
+
+git filter-branch --force --env-filter '
+
+OLD_EMAIL="leewenming17160@gmail.com"
+CORRECT_NAME="ronaldnunes7792"
+CORRECT_EMAIL="ronaldnunes7792@gmail.com"
+
+if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
+then
+export GIT_COMMITTER_NAME="$CORRECT_NAME"
+export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+then
+export GIT_AUTHOR_NAME="$CORRECT_NAME"
+export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags
+
+
+
+=================================================
+
+
+ git remote -v
+
+ git remote remove origin
+
+
+ git remote add origin https://github.com/ronaldnunes7792/new_port.git
+
+ git push --force --tags origin 'refs/heads/*'
+
+
+
+git clone <repo->
+cd <directory>
+
+git remote set-url origin https://github.com/javierandresangarita/Shopify-API-2018-.git
+git filter-branch --env-filter "export GIT_COMMITTER_NAME='javierandresangarita' export GIT_COMMITTER_EMAIL='javierandresangarita38563@gmail.com' export GIT_AUTHOR_NAME='javierandresangarita' export GIT_AUTHOR_EMAIL='javierandresangarita38563@gmail.com'" --tag-name-filter cat -- --branches --tags
+git push
+
+
+API_KEY:your_actual_api_key_here
+Key:your_actual_api_key_here
+Value:28051bff4d8157311fb8bcac7db65f7e
+SECRET_KEY:postgres://user:password@host:port/dbname

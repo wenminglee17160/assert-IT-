@@ -1,0 +1,50 @@
+
+Here is my original proposal text,
+
+`Hello,
+
+I’m ready to get started right away.
+I’ve reviewed your requirements and am excited about this opportunity.
+With 6 years of experience in React, Next.js and Node.js, I am confident that I can provide detail-oriented and scalable solutions for your projects.
+
+Please check out my previous work.
+
+I would love to collaborate with you and help make your project a success. 
+Let’s discuss your project in more detail.
+
+Best regards,
+Fernando`
+
+---------------------------
+this is prompt
+---------------------------
+I will give the job postings,
+Then change the original proposal based on the current job postings, remove or add some skills in the existing skill list and add some technical contents based on the job postings, but do not change original proposal structure,
+And keep native english style.
+Just update the existing skills list and do not add any contents about the familiar skill list.
+A Little mention about the technical things to give feeling that I read the job postings.
+---
+React + Node : 2
+------------------------------------------
+
+https://www.daretoloveagain.com/
+https://www.irondark.com/
+https://wildtours.com/
+------------------------------------------
+Next
+------------------------------------------
+
+Vue + Laravel : 2
+https://dimobeler.com.mx/
+https://sistemagb.com/
+ledsbegreen.com.mx
+------------------------------------------
+BlockChain : 2
+------------------------------------------
+
+https://blockdemy.com/
+https://www.kuspit.com/
+
+------------------------------------------
+AI : 2
+------------------------------------------
